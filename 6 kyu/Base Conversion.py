@@ -2,31 +2,26 @@
 # In this kata you have to implement a base converter, which converts positive integers between arbitrary bases / alphabets. Here are some pre-
 # defined alphabets:
 # 
-# var Alphabet = {
-#   BINARY:        '01',
-#   OCTAL:         '01234567',
-#   DECIMAL:       '0123456789',
-#   HEXA_DECIMAL:  '0123456789abcdef',
-#   ALPHA_LOWER:   'abcdefghijklmnopqrstuvwxyz',
-#   ALPHA_UPPER:   'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-#   ALPHA:         'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
-#   ALPHA_NUMERIC: '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-# };
+# bin      = '01'
+# oct      = '01234567'
+# dec      = '0123456789'
+# hex      = '0123456789abcdef'
+# allow    = 'abcdefghijklmnopqrstuvwxyz'
+# allup    = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# alpha    = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# alphanum = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# 
 # The function convert() should take an input (string), the source alphabet (string) and the target alphabet (string). You can assume that the input 
 # value always consists of characters from the source alphabet. You don't need to validate it.
 # 
 # Examples
-# // convert between numeral systems
-# convert("15", Alphabet.DECIMAL, Alphabet.BINARY); // should return "1111"
-# convert("15", Alphabet.DECIMAL, Alphabet.OCTAL); // should return "17"
-# convert("1010", Alphabet.BINARY, Alphabet.DECIMAL); // should return "10"
-# convert("1010", Alphabet.BINARY, Alphabet.HEXA_DECIMAL); // should return "a"
-# 
-# // other bases
-# convert("0", Alphabet.DECIMAL, Alphabet.ALPHA); // should return "a"
-# convert("27", Alphabet.DECIMAL, Alphabet.ALPHA_LOWER); // should return "bb"
-# convert("hello", Alphabet.ALPHA_LOWER, Alphabet.HEXA_DECIMAL); // should return "320048"
-# convert("SAME", Alphabet.ALPHA_UPPER, Alphabet.ALPHA_UPPER); // should return "SAME"
+# convert("15", dec, bin)       ==>  "1111"
+# convert("15", dec, oct)       ==>  "17"
+# convert("1010", bin, dec)     ==>  "10"
+# convert("1010", bin, hex)     ==>  "a"
+# convert("0", dec, alpha)      ==>  "a"
+# convert("27", dec, allow)     ==>  "bb"
+# convert("hello", allow, hex)  ==>  "320048"
 # 
 # Additional Notes:
 # 
