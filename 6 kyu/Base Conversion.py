@@ -31,6 +31,21 @@
 # You don't have to consider negative numbers
 # -----------------------------------------------------------
 
+def convert(data, source, target):
+    data = reversed(data)
+    len_source, len_target  = len(source), len(target)
+    basecon = sum([source.index(j) * len_source ** i for i, j in enumerate(data)])
+    arr = []
+    if basecon == 0:
+        arr.append(target[0])
+    else:
+        while basecon:
+            arr.append(target[basecon % len_target])
+            basecon = basecon // len_target 
+    return "".join(reversed(arr))
+
+# or
+
 def convert(input, source, target):
     con = ""
     basecon = 0
