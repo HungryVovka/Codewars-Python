@@ -7,8 +7,8 @@
 # be separated by a single space(' ').
 # 
 # Examples:
-# toWeirdCase( "String" );//=> returns "StRiNg"
-# toWeirdCase( "Weird string case" );//=> returns "WeIrD StRiNg CaSe"
+# to_weird_case('String'); # => returns 'StRiNg'
+# to_weird_case('Weird string case') # => returns 'WeIrD StRiNg CaSe'
 # -----------------------------------------------------------
 
 def to_weird_case(words):
