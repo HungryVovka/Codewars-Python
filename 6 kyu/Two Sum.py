@@ -10,7 +10,7 @@
 # 
 # Based on: http://oj.leetcode.com/problems/two-sum/
 # 
-# twoSum([1, 2, 3], 4) // returns [0, 2] or [2, 0]
+# two_sum([1, 2, 3], 4) # returns [0, 2] or [2, 0]
 # -----------------------------------------------------------
 
 def two_sum(numbers, target):
