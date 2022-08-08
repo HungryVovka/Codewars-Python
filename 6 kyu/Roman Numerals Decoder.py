@@ -8,7 +8,7 @@
 # 
 # Example:
 # 
-# solution('XXI'); // should return 21
+# solution('XXI') # should return 21
 # 
 # Help:
 # 
