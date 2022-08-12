@@ -3,8 +3,8 @@
 # 
 # Examples:
 # 
-# solution('abc', 'bc') // returns true
-# solution('abc', 'd') // returns false
+# solution('abc', 'bc') # returns true
+# solution('abc', 'd') # returns false
 # -----------------------------------------------------------
 
 def solution(string, ending):
