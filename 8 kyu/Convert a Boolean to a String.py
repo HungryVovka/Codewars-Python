@@ -9,3 +9,8 @@ def boolean_to_string(b):
         return("True")
     if b == False:
         return("False")
+
+# or
+
+def boolean_to_string(b):
+    return "True" if b == True else "False"
