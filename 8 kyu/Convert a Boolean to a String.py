@@ -14,3 +14,8 @@ def boolean_to_string(b):
 
 def boolean_to_string(b):
     return "True" if b == True else "False"
+
+# or
+
+def boolean_to_string(b):
+    return str(b)
