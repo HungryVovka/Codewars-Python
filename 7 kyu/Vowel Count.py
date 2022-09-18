@@ -12,3 +12,8 @@ def get_count(sentence):
         if i in "aeiouAEIOU":
             vowels = vowels + 1
     return vowels
+
+# or
+
+def get_count(sentence):
+    return sum(i in "aeiouAEIOU" for i in sentence)
