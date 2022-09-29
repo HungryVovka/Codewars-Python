@@ -26,3 +26,8 @@ def bingo(ticket,win):
         return "Winner!"
     else:
         return "Loser!"
+
+# or
+
+def bingo(ticket,win):
+    return "Winner!" if win <= sum(chr(j) in i for i, j in ticket) else "Loser!"
