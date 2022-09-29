@@ -27,3 +27,8 @@ def solved(s):
     if t % 2 != 0:
         s = s[:o] + s[o + 1:]
     return "".join(sorted(s))
+
+# or
+
+def solved(s):
+    return "".join(sorted(s[:len(s)//2] + s[(len(s)//2)+1:] if  len(s) % 2 != 0 else s))
