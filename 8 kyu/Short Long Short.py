@@ -23,3 +23,8 @@ def solution(a, b):
         arr.append(a)
     answer = "".join(arr)
     return (answer)
+
+# or
+
+def solution(a, b):
+    return b + a + b if len(a) > len(b) else a + b + a
