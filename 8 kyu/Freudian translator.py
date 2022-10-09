@@ -20,3 +20,8 @@ def to_freud(sentence):
         return("sex" + " sex" * (len(arr) -1))
     if len(arr) == 0:
         return("")
+
+# or
+
+def to_freud(sentence):
+    return (len(sentence.split()) * "sex ").rstrip()
