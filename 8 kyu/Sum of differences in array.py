@@ -16,3 +16,8 @@ def sum_of_differences(arr):
         return(abs(arr[-1] - arr[0]))
     else:
         return(0)
+
+# or
+
+def sum_of_differences(arr):
+    return max(arr) - min(arr) if len(arr) > 1 else 0
