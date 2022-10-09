@@ -15,3 +15,8 @@ def find_multiples(integer, limit):
         answer.insert(0, integer * count)
         count -= 1
     return(answer)
+
+# or
+
+def find_multiples(integer, limit):
+    return list(range(integer, limit + 1, integer))
