@@ -16,7 +16,10 @@
 
 def pythagorean_triple(integers):
     integers.sort()
-    if integers[2]**2 - (integers[0]**2 + integers[1]**2) == 0:
-        return True
-    else:
-        return False
+    return integers[2]**2 - (integers[0]**2 + integers[1]**2) == 0
+
+# or
+
+def pythagorean_triple(integers):
+    a, b, c = sorted(integers)
+    return a * a + b * b == c * c
