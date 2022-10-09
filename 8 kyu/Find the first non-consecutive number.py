@@ -24,6 +24,16 @@
 # -----------------------------------------------------------
 
 def first_non_consecutive(arr):
+    i = arr[0]
+    for j in arr:
+        if j != i:
+            return j
+        i += 1
+    return None
+
+# or
+
+def first_non_consecutive(arr):
     for x, y in enumerate(arr, arr[0]):
         if x != y:
             return y
