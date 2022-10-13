@@ -28,7 +28,7 @@ def calculator(x, y, op):
 
 # or
 
-def calculator(x,y,op):
+def calculator(x, y, op):
     try:
         assert op in "+-*/"
         assert type(x) == int
