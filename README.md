@@ -1,4 +1,6 @@
 # Codewars-Python
+ATTENTION! DO NOT rewrite the code verbatim, otherwise you may get a ban on the platform for cheating (takes into account spaces, newlines, brackets and similar variable names).
+
 My assignment solutions of Codewars tasks by using Python.
 
 [![Profile badge](https://www.codewars.com/users/HungryVovka/badges/large)](https://www.codewars.com/users/HungryVovka)
