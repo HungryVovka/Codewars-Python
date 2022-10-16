@@ -19,3 +19,12 @@ def partitions(n):
                 k = partit[i - j][j]
             partit[i].append(partit[i][j - 1] + k)
     return partit[n][n]
+
+# or
+
+def partitions(n):
+    partit = [1] + [0] * n
+    for a in range(1, n + 1):
+        for b, c in enumerate(range(a, n + 1)):
+            partit[c] += partit[b]
+    return partit[n]
