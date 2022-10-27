@@ -7,5 +7,5 @@
 # -----------------------------------------------------------
 
 def difference_in_ages(ages):
-    answer = max(ages) - min(ages)
-    return (min(ages), max(ages), answer)
+    age_gap = max(ages) - min(ages)
+    return (min(ages), max(ages), age_gap)
