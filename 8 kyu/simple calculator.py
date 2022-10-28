@@ -21,7 +21,7 @@ def calculator(x, y, op):
         return x - y
     if op == "*" and type(x) == type(y) == int:
         return x * y
-    if op == "/" and type(x) == type(y) == int:
+    if op == "/" and type(x) == type(y) == int and y != 0:
         return x / y
     else:
         return "unknown value"
