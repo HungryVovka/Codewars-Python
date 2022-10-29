@@ -11,7 +11,7 @@
 # -----------------------------------------------------------
 
 def leo(oscar):
-    leonardo_dicaprio_an_oscars = {
+    leonardo_dicaprio_and_oscars = {
         86 : "Not even for Wolf of wallstreet?!",
         87 : "When will you give Leo an Oscar?",
         88 : "Leo finally won the oscar! Leo is happy",
@@ -19,4 +19,4 @@ def leo(oscar):
     }
     if oscar > 89: oscar = 89
     if oscar < 86: oscar = 87
-    return leonardo_dicaprio_an_oscars.get(oscar)
+    return leonardo_dicaprio_and_oscars.get(oscar)
