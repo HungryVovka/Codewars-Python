@@ -26,8 +26,6 @@ def DNA_strand(dna):
 
 # or
 
-import string
-
 com = str.maketrans("CGAT", "GCTA")
 
 def DNA_strand(dna):
