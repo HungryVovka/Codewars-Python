@@ -24,3 +24,8 @@ def convert_hash_to_array(hash):
 
 def convert_hash_to_array(hash):
     return [[h, hash[h]] for h in sorted(hash)]
+
+# or
+
+def convert_hash_to_array(hash):
+    return [[h, i] for h, i in sorted(hash.items())]
