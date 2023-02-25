@@ -24,3 +24,12 @@ def largest_sum(s):
     for i in s:
         arr.append(sum(int(j) for j in i))
     return max(arr)
+
+# or
+
+def largest_sum(s):
+    s = s.split("0")
+    arr = []
+    for i in s:
+        arr.append(sum(map(int, i)))
+    return max(arr)
