@@ -76,4 +76,4 @@ discs_and_collar = {
 }
 
 def barbell_weight(barbell):
-    return sum(discs_and_collar[i] for i in barbell) + 20
+    return sum(discs_and_collar[i] for i in barbell) + 20.0
