@@ -6,7 +6,7 @@
 # B W B W    W W B W    B W W W        W W B W    B W W B    W B B W
 # W B W B    B W W B    W W B W        B B W B    W B B W    B W W B
 # 
-# 		Cute patterns						Not a cute pattern
+# 	Cute patterns			    Not a cute pattern
 # 
 # According to the given arrangement of tiles, it is required to determine whether the executed pattern is cute. You need to write a function.
 # 
