@@ -16,3 +16,8 @@ def make_negative( number ):
         return(-number)
     else:
         return(number)
+
+# or
+
+def make_negative( number ):
+    return (- number) if number > 0 else number
