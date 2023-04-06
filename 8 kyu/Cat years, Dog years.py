@@ -44,3 +44,24 @@ def human_years_cat_years_dog_years(human_years):
         return [human_years, cat_years2, dog_years2]   
     if human_years > 2:
         return [human_years, cat_years3, dog_years3]
+
+# -----------------------------------------------------------
+# License
+# Tasks are the property of Codewars (https://www.codewars.com/) 
+# and users of this resource.
+# 
+# All solution code in this repository 
+# is the personal property of Vladimir Rukavishnikov
+# (vladimirrukavishnikovmail@gmail.com).
+# 
+# Copyright (C) 2022 Vladimir Rukavishnikov
+# 
+# This file is part of the HungryVovka/Codewars-Python
+# (https://github.com/HungryVovka/Codewars-Python)
+# 
+# License is GNU General Public License v3.0
+# (https://github.com/HungryVovka/Codewars-Python/blob/main/LICENSE.md)
+# 
+# You should have received a copy of the GNU General Public License v3.0
+# along with this code. If not, see http://www.gnu.org/licenses/
+# -----------------------------------------------------------

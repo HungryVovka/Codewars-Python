@@ -27,3 +27,24 @@ def alias_gen(f_name, l_name):
     f = FIRST_NAME.get(f_name[0].upper())
     l = SURNAME.get(l_name[0].upper())
     return "{} {}".format(f, l) if f and l else "Your name must start with a letter from A - Z."
+
+# -----------------------------------------------------------
+# License
+# Tasks are the property of Codewars (https://www.codewars.com/) 
+# and users of this resource.
+# 
+# All solution code in this repository 
+# is the personal property of Vladimir Rukavishnikov
+# (vladimirrukavishnikovmail@gmail.com).
+# 
+# Copyright (C) 2022 Vladimir Rukavishnikov
+# 
+# This file is part of the HungryVovka/Codewars-Python
+# (https://github.com/HungryVovka/Codewars-Python)
+# 
+# License is GNU General Public License v3.0
+# (https://github.com/HungryVovka/Codewars-Python/blob/main/LICENSE.md)
+# 
+# You should have received a copy of the GNU General Public License v3.0
+# along with this code. If not, see http://www.gnu.org/licenses/
+# -----------------------------------------------------------
