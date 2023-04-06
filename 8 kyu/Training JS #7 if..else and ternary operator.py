@@ -40,8 +40,8 @@
 # different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
 # 
 # number					price (cents)
-# n < 5					100
-# n >= 5 and n < 10		95
+# n < 5					    100
+# n >= 5 and n < 10		    95
 # n >= 10					90
 # 
 # You can use if..else or ternary operator to complete it.
@@ -55,3 +55,24 @@ def sale_hotdogs(n):
     if n < 5: return n * 100
     if 10 > n >= 5: return n * 95
     if n >= 10: return n * 90
+
+# -----------------------------------------------------------
+# License
+# Tasks are the property of Codewars (https://www.codewars.com/) 
+# and users of this resource.
+# 
+# All solution code in this repository 
+# is the personal property of Vladimir Rukavishnikov
+# (vladimirrukavishnikovmail@gmail.com).
+# 
+# Copyright (C) 2022 Vladimir Rukavishnikov
+# 
+# This file is part of the HungryVovka/Codewars-Python
+# (https://github.com/HungryVovka/Codewars-Python)
+# 
+# License is GNU General Public License v3.0
+# (https://github.com/HungryVovka/Codewars-Python/blob/main/LICENSE.md)
+# 
+# You should have received a copy of the GNU General Public License v3.0
+# along with this code. If not, see http://www.gnu.org/licenses/
+# -----------------------------------------------------------
