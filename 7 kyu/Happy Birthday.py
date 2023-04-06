@@ -35,3 +35,24 @@ def wrap(height, width, length):
         return(p1*2 + p2*4 + p3*2 + 20)
     if p1 == p3 and p1 == p2:
         return(p1*4 + p2*2 + p3*2 + 20)
+
+# -----------------------------------------------------------
+# License
+# Tasks are the property of Codewars (https://www.codewars.com/) 
+# and users of this resource.
+# 
+# All solution code in this repository 
+# is the personal property of Vladimir Rukavishnikov
+# (vladimirrukavishnikovmail@gmail.com).
+# 
+# Copyright (C) 2022 Vladimir Rukavishnikov
+# 
+# This file is part of the HungryVovka/Codewars-Python
+# (https://github.com/HungryVovka/Codewars-Python)
+# 
+# License is GNU General Public License v3.0
+# (https://github.com/HungryVovka/Codewars-Python/blob/main/LICENSE.md)
+# 
+# You should have received a copy of the GNU General Public License v3.0
+# along with this code. If not, see http://www.gnu.org/licenses/
+# -----------------------------------------------------------
