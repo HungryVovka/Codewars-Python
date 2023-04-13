@@ -21,6 +21,13 @@ def disemvowel(string_):
             newstring += n
     return newstring
 
+# or
+
+def disemvowel(string_):
+    for vovel in "aAeEiIoOuU":
+        string_ = string_.replace(vovel, "")
+    return string_
+
 # -----------------------------------------------------------
 # License
 # Tasks are the property of Codewars (https://www.codewars.com/) 
