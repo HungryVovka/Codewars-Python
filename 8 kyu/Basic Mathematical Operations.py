@@ -12,6 +12,8 @@
 # -----------------------------------------------------------
 
 def basic_op(operator, value1, value2):
+    if operator == "/" and value2 == 0:
+        return 0
     if operator == "+":
         return value1 + value2
     if operator == "-":
@@ -20,6 +22,23 @@ def basic_op(operator, value1, value2):
         return value1 * value2
     if operator == "/":
         return value1 / value2
+
+# or
+
+def basic_op(operator, value1, value2):
+    if operator == "/" and value2 == 0:
+        return 0
+    match operator:
+        case "+":
+            return value1 + value2
+        case "-":
+            return value1 - value2
+        case "*":
+            return value1 * value2
+        case "/":
+            return value1 / value2
+        case _:
+            return 0
 
 # -----------------------------------------------------------
 # License
