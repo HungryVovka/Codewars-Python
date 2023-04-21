@@ -21,7 +21,7 @@
 # -----------------------------------------------------------
 
 def six_toast(num):
-    return num - 6 if num >= 6 else num
+    return num - 6 if num >= 6 else 6 - num
 
 # or
 
