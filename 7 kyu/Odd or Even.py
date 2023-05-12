@@ -25,6 +25,11 @@ def odd_or_even(arr):
     if sum(arr) % 2 == 1:
         return("odd")
 
+# or
+
+def odd_or_even(arr):
+    return "even" if sum(arr) % 2 == 0 else "odd"
+
 # -----------------------------------------------------------
 # License
 # Tasks are the property of Codewars (https://www.codewars.com/) 
