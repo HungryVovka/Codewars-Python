@@ -29,7 +29,7 @@ def tribonacci(signature, n):
     try:
         arr = signature
         if n > 0 and n < 4:
-            return arr[:(n)]
+            return arr[:n]
         i = 0
         while i != n:
             arr.append(arr[i] + arr[i + 1] + arr[i + 2])
