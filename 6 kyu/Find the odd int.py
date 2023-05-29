@@ -20,6 +20,13 @@ def find_it(seq):
         if i[1] % 2 !=0:
             return i[0]
 
+# or
+
+def find_it(seq):
+    for i in seq:
+        if seq.count(i) % 2 != 0:
+            return i
+
 # -----------------------------------------------------------
 # License
 # Tasks are the property of Codewars (https://www.codewars.com/) 
