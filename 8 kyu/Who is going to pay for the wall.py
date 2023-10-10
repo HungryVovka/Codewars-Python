@@ -11,7 +11,7 @@
 
 def who_is_paying(name):
     if len(name) > 3:
-        return [name, name[:2]]
+        return [name, name[0:2]]
     return [name]
 
 # -----------------------------------------------------------
