@@ -6,7 +6,7 @@
 # -----------------------------------------------------------
 
 def is_pangram(sentence):
-    engAlphabet = "ABCDEFJHIJKLMNOPQRSTUVWXYZ"
+    engAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     sentence = sentence.upper()
     for i in engAlphabet:
         if i not in sentence:
