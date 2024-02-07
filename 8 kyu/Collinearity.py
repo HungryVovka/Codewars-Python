@@ -1,3 +1,4 @@
+# -----------------------------------------------------------
 # Theoretical Material
 # 
 # You are given two vectors starting from the origin (x=0, y=0) with coordinates (x1,y1) and (x2,y2). Your task is to find out if these vectors are 
@@ -30,6 +31,7 @@
 # (0,0,0,0) ➞ true
 # (0,0,1,0) ➞ true
 # (5,7,0,0) ➞ true
+# -----------------------------------------------------------
 
 def collinearity(x1, y1, x2, y2):
     return x1 * y2 == x2 * y1
